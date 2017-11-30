@@ -2,6 +2,11 @@
 
 A simple way to work with hires (retina) source images for your Gulp projects by automatically resizing them to smaller versions from a single source file. This means that you only need one hires image in your repo and don't need to create alternate versions of every single one.
 
+## Prerequisites
+
+* Works in Node 5.0.0+ with Gulp.js.
+* Requires [ImageMagick](https://www.npmjs.com/package/gulp-retinize) for Node. Please go there for installation directions and relevant questions.
+
 ## Usage
 
 ```js
