@@ -46,7 +46,7 @@ module.exports = function (args) {
     let extension = path.extname(file.path).substr(1);
 
     if (! options.extensions.includes(extension.toLowerCase())) {
-      debug('File extension filtered out: '+extension+' ('+path.basename(file)+')');
+      debug('File extension filtered out: '+extension+' ('+path.basename(file.path)+')');
       return callback(null, file);
     }
 
