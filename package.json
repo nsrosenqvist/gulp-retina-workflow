@@ -1,0 +1,39 @@
+{
+  "name": "gulp-retina-workflow",
+  "version": "1.0.0",
+  "description": "A simple way to work with hires (retina) source images for your Gulp projects by automatically resizing them to smaller versions from a single source file.",
+  "keywords": [
+    "retina",
+    "images",
+    "hires",
+    "workflow"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsrosenqvist/gulp-retina-workflow.git"
+  },
+  "author": "Niklas Rosenqvist <niklas.s.rosenqvist@gmail.com> (https://www.nsrosenqvist.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsrosenqvist/gulp-retina-workflow/issues"
+  },
+  "homepage": "https://github.com/nsrosenqvist/gulp-retina-workflow#readme",
+  "engines": {
+    "node": ">=6.5.0"
+  },
+  "dependencies": {
+    "defaults": "^1.0.3",
+    "fs": "0.0.1-security",
+    "gm": "^1.23.0",
+    "gulp-util": "^3.0.8",
+    "image-size": "^0.6.1",
+    "path": "^0.12.7",
+    "through2": "^2.0.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
