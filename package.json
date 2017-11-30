@@ -1,6 +1,6 @@
 {
   "name": "gulp-retina-workflow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple way to work with hires (retina) source images for your Gulp projects by automatically resizing them to smaller versions from a single source file.",
   "keywords": [
     "retina",
